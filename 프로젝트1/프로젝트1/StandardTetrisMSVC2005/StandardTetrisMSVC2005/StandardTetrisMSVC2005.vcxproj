@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B84B9A4D-0A61-416C-8A28-DBE46EB02294}</ProjectGuid>
+    <RootNamespace>StandardTetrisMSVC2005</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.21005.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;vfw32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;vfw32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="source\CPF.StandardTetris.Notes.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\CPF.StandardTetris.STBoard.cpp" />
+    <ClCompile Include="source\CPF.StandardTetris.STConsole.cpp" />
+    <ClCompile Include="source\CPF.StandardTetris.STDateTime.cpp" />
+    <ClCompile Include="source\CPF.StandardTetris.STEngine.cpp" />
+    <ClCompile Include="source\CPF.StandardTetris.STFile.cpp" />
+    <ClCompile Include="source\CPF.StandardTetris.STFileList.cpp" />
+    <ClCompile Include="source\CPF.StandardTetris.STGame.cpp" />
+    <ClCompile Include="source\CPF.StandardTetris.STGameDrawing.cpp" />
+    <ClCompile Include="source\CPF.StandardTetris.STGameFile.cpp" />
+    <ClCompile Include="source\CPF.StandardTetris.STGameState.cpp" />
+    <ClCompile Include="source\CPF.StandardTetris.STMain.cpp" />
+    <ClCompile Include="source\CPF.StandardTetris.STMD5.cpp" />
+    <ClCompile Include="source\CPF.StandardTetris.STOpenGLFont.cpp" />
+    <ClCompile Include="source\CPF.StandardTetris.STPiece.cpp" />
+    <ClCompile Include="source\CPF.StandardTetris.STPieceSequence.cpp" />
+    <ClCompile Include="source\CPF.StandardTetris.STRandom.cpp" />
+    <ClCompile Include="source\CPF.StandardTetris.STRS232.cpp" />
+    <ClCompile Include="source\CPF.StandardTetris.STStrategy.cpp" />
+    <ClCompile Include="source\CPF.StandardTetris.STStrategyColinFaheyTwoPiece2003.cpp" />
+    <ClCompile Include="source\CPF.StandardTetris.STStrategyManager.cpp" />
+    <ClCompile Include="source\CPF.StandardTetris.STStrategyPierreDellacherieOnePiece2003.cpp" />
+    <ClCompile Include="source\CPF.StandardTetris.STStrategyRogerLLimaLaurentBercotSebastienBlondeelOnePiece1996.cpp" />
+    <ClCompile Include="source\CPF.StandardTetris.STStrategyUserDefinedDll.cpp" />
+    <ClCompile Include="source\CPF.StandardTetris.STTime.cpp" />
+    <ClCompile Include="source\CPF.StandardTetris.STUserInterface.cpp" />
+    <ClCompile Include="source\CPF.StandardTetris.STVideoCapture.cpp" />
+    <ClCompile Include="source\CPF.StandardTetris.STVideoProcessing.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\CPF.StandardTetris.STBoard.h" />
+    <ClInclude Include="source\CPF.StandardTetris.STConsole.h" />
+    <ClInclude Include="source\CPF.StandardTetris.STDateTime.h" />
+    <ClInclude Include="source\CPF.StandardTetris.STEngine.h" />
+    <ClInclude Include="source\CPF.StandardTetris.STFile.h" />
+    <ClInclude Include="source\CPF.StandardTetris.STFileList.h" />
+    <ClInclude Include="source\CPF.StandardTetris.STGame.h" />
+    <ClInclude Include="source\CPF.StandardTetris.STGameDrawing.h" />
+    <ClInclude Include="source\CPF.StandardTetris.STGameFile.h" />
+    <ClInclude Include="source\CPF.StandardTetris.STGameState.h" />
+    <ClInclude Include="source\CPF.StandardTetris.STMain.h" />
+    <ClInclude Include="source\CPF.StandardTetris.STMD5.h" />
+    <ClInclude Include="source\CPF.StandardTetris.STOpenGLFont.h" />
+    <ClInclude Include="source\CPF.StandardTetris.STPiece.h" />
+    <ClInclude Include="source\CPF.StandardTetris.STPieceSequence.h" />
+    <ClInclude Include="source\CPF.StandardTetris.STRandom.h" />
+    <ClInclude Include="source\CPF.StandardTetris.STRS232.h" />
+    <ClInclude Include="source\CPF.StandardTetris.STStrategy.h" />
+    <ClInclude Include="source\CPF.StandardTetris.STStrategyColinFaheyTwoPiece2003.h" />
+    <ClInclude Include="source\CPF.StandardTetris.STStrategyManager.h" />
+    <ClInclude Include="source\CPF.StandardTetris.STStrategyPierreDellacherieOnePiece2003.h" />
+    <ClInclude Include="source\CPF.StandardTetris.STStrategyRogerLLimaLaurentBercotSebastienBlondeelOnePiece1996.h" />
+    <ClInclude Include="source\CPF.StandardTetris.STStrategyUserDefinedDll.h" />
+    <ClInclude Include="source\CPF.StandardTetris.STTime.h" />
+    <ClInclude Include="source\CPF.StandardTetris.STUserInterface.h" />
+    <ClInclude Include="source\CPF.StandardTetris.STVideoCapture.h" />
+    <ClInclude Include="source\CPF.StandardTetris.STVideoProcessing.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="source\CPF.StandardTetris.STResourceScript.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\AI\AI.vcxproj.filters" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
