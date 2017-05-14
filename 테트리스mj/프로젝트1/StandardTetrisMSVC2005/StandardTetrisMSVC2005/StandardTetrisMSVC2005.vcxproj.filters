@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{15932acb-68d0-4fde-be8f-8a6648f044e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="source\CPF.StandardTetris.Notes.txt">
+      <Filter>source</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\CPF.StandardTetris.STBoard.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CPF.StandardTetris.STConsole.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CPF.StandardTetris.STDateTime.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CPF.StandardTetris.STEngine.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CPF.StandardTetris.STFile.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CPF.StandardTetris.STFileList.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CPF.StandardTetris.STGame.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CPF.StandardTetris.STGameDrawing.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CPF.StandardTetris.STGameFile.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CPF.StandardTetris.STGameState.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CPF.StandardTetris.STMain.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CPF.StandardTetris.STMD5.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CPF.StandardTetris.STOpenGLFont.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CPF.StandardTetris.STPiece.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CPF.StandardTetris.STPieceSequence.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CPF.StandardTetris.STRandom.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CPF.StandardTetris.STRS232.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CPF.StandardTetris.STStrategy.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CPF.StandardTetris.STStrategyColinFaheyTwoPiece2003.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CPF.StandardTetris.STStrategyManager.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CPF.StandardTetris.STStrategyPierreDellacherieOnePiece2003.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CPF.StandardTetris.STStrategyRogerLLimaLaurentBercotSebastienBlondeelOnePiece1996.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CPF.StandardTetris.STStrategyUserDefinedDll.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CPF.StandardTetris.STTime.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CPF.StandardTetris.STUserInterface.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CPF.StandardTetris.STVideoCapture.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CPF.StandardTetris.STVideoProcessing.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\CPF.StandardTetris.STBoard.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CPF.StandardTetris.STConsole.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CPF.StandardTetris.STDateTime.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CPF.StandardTetris.STEngine.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CPF.StandardTetris.STFile.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CPF.StandardTetris.STFileList.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CPF.StandardTetris.STGame.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CPF.StandardTetris.STGameDrawing.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CPF.StandardTetris.STGameFile.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CPF.StandardTetris.STGameState.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CPF.StandardTetris.STMain.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CPF.StandardTetris.STMD5.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CPF.StandardTetris.STOpenGLFont.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CPF.StandardTetris.STPiece.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CPF.StandardTetris.STPieceSequence.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CPF.StandardTetris.STRandom.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CPF.StandardTetris.STRS232.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CPF.StandardTetris.STStrategy.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CPF.StandardTetris.STStrategyColinFaheyTwoPiece2003.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CPF.StandardTetris.STStrategyManager.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CPF.StandardTetris.STStrategyPierreDellacherieOnePiece2003.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CPF.StandardTetris.STStrategyRogerLLimaLaurentBercotSebastienBlondeelOnePiece1996.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CPF.StandardTetris.STStrategyUserDefinedDll.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CPF.StandardTetris.STTime.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CPF.StandardTetris.STUserInterface.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CPF.StandardTetris.STVideoCapture.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CPF.StandardTetris.STVideoProcessing.h">
+      <Filter>source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="source\CPF.StandardTetris.STResourceScript.rc">
+      <Filter>source</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\AI\AI.vcxproj.filters" />
+  </ItemGroup>
+</Project>
